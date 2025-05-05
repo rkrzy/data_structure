@@ -1,0 +1,7 @@
+#ifndef DATA_STRUCTURE_CHAPTER1_H
+#define DATA_STRUCTURE_CHAPTER1_H
+
+#define MAX_ELEMENTS 100
+
+int get_max_score(int n);
+#endif //DATA_STRUCTURE_CHAPTER1_H
