@@ -1,6 +1,8 @@
 # ninja log v6
-1	86	1747029872293318824	build.ninja	4a22fafdd167b17c
-0	81	1747029856210994347	CMakeFiles/data_structure.dir/chapter4_stack/chapter4_dynamic_stack.c.o	aa542e47595b1666
-1	67	1747029796364109057	CMakeFiles/data_structure.dir/main.c.o	50ed6b057f54bb62
-81	148	1747029856291267667	data_structure	3e67d0cfc99a0688
 1	80	1747029856211356629	CMakeFiles/data_structure.dir/chapter4_stack/chapter4_static_stack.c.o	14e0918f23a66838
+237	301	1747114746239377332	data_structure	6aa30dabc6b0105b
+3	237	1747114746004907651	CMakeFiles/data_structure.dir/main.c.o	50ed6b057f54bb62
+0	81	1747029856210994347	CMakeFiles/data_structure.dir/chapter4_stack/chapter4_dynamic_stack.c.o	aa542e47595b1666
+1	95	1747114870581681213	build.ninja	4a22fafdd167b17c
+1	92	1747114620729345948	CMakeFiles/data_structure.dir/chapter5_queue/chapter5_linear_queue.c.o	9540592fab209edd
+0	92	1747114620729028702	CMakeFiles/data_structure.dir/chapter5_queue/chapter5_circular_queue.c.o	42ce930e1a38f3a1

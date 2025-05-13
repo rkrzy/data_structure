@@ -67,6 +67,18 @@ build CMakeFiles/data_structure.dir/chapter4_stack/chapter4_static_stack.c.o: C_
   OBJECT_DIR = CMakeFiles/data_structure.dir
   OBJECT_FILE_DIR = CMakeFiles/data_structure.dir/chapter4_stack
 
+build CMakeFiles/data_structure.dir/chapter5_queue/chapter5_circular_queue.c.o: C_COMPILER__data_structure_unscanned_Debug /Users/imjunsik/Desktop/data_structure/chapter5_queue/chapter5_circular_queue.c || cmake_object_order_depends_target_data_structure
+  DEP_FILE = CMakeFiles/data_structure.dir/chapter5_queue/chapter5_circular_queue.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/data_structure.dir
+  OBJECT_FILE_DIR = CMakeFiles/data_structure.dir/chapter5_queue
+
+build CMakeFiles/data_structure.dir/chapter5_queue/chapter5_linear_queue.c.o: C_COMPILER__data_structure_unscanned_Debug /Users/imjunsik/Desktop/data_structure/chapter5_queue/chapter5_linear_queue.c || cmake_object_order_depends_target_data_structure
+  DEP_FILE = CMakeFiles/data_structure.dir/chapter5_queue/chapter5_linear_queue.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/data_structure.dir
+  OBJECT_FILE_DIR = CMakeFiles/data_structure.dir/chapter5_queue
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target data_structure
@@ -75,7 +87,7 @@ build CMakeFiles/data_structure.dir/chapter4_stack/chapter4_static_stack.c.o: C_
 #############################################
 # Link the executable data_structure
 
-build data_structure: C_EXECUTABLE_LINKER__data_structure_Debug CMakeFiles/data_structure.dir/main.c.o CMakeFiles/data_structure.dir/chapter4_stack/chapter4_dynamic_stack.c.o CMakeFiles/data_structure.dir/chapter4_stack/chapter4_static_stack.c.o
+build data_structure: C_EXECUTABLE_LINKER__data_structure_Debug CMakeFiles/data_structure.dir/main.c.o CMakeFiles/data_structure.dir/chapter4_stack/chapter4_dynamic_stack.c.o CMakeFiles/data_structure.dir/chapter4_stack/chapter4_static_stack.c.o CMakeFiles/data_structure.dir/chapter5_queue/chapter5_circular_queue.c.o CMakeFiles/data_structure.dir/chapter5_queue/chapter5_linear_queue.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   LINK_FLAGS = -L/opt/homebrew/opt/openssl@3/lib
   OBJECT_DIR = CMakeFiles/data_structure.dir
